@@ -106,7 +106,7 @@ function App() {
             <div className="relative z-10 reveal">
               <p className="eyebrow mb-7 flex items-center gap-3"><span className="h-px w-8 bg-[#C5A059]" /> Perawatan gigi, dengan lebih tenang</p>
               <h1 className="serif max-w-[590px] text-[58px] font-medium leading-[.94] tracking-[-.035em] sm:text-[72px] lg:text-[84px]">Senyum sehat,<br /><span className="text-[#A98543]">dirawat dengan</span><br />presisi dan perhatian.</h1>
-              <p className="mt-7 max-w-[420px] text-[13px] leading-7 text-[#5C6B73] sm:text-sm">Klinik gigi premium di Tebet, Jakarta Selatan, menghadirkan perawatan estetik dan restoratif berstandar tinggi dengan teknologi modern.</p>
+              <p className="mt-7 max-w-[420px] text-[13px] leading-7 text-[#5C6B73] sm:text-sm">Klinik gigi premium di Mampang Prapatan, Jakarta Selatan, menghadirkan perawatan estetik dan restoratif berstandar tinggi dengan teknologi modern.</p>
               <div className="mt-9 flex flex-wrap items-center gap-4">
                 <button data-testid="hero-booking-cta" onClick={() => openBooking()} className="group flex items-center gap-4 bg-[#1B262C] px-6 py-4 text-[11px] font-semibold tracking-wide text-white transition-colors hover:bg-[#34454c]">Reservasi Konsultasi <ArrowRight className="transition-transform group-hover:translate-x-1" size={15} /></button>
                 <a data-testid="hero-services-link" href="#layanan" className="flex items-center gap-2 px-2 py-3 text-[11px] font-semibold text-[#1B262C]">Jelajahi layanan <ArrowDown size={14} className="text-[#C5A059]" /></a>
@@ -125,7 +125,7 @@ function App() {
                 </div>
               </div>
               <div className="absolute -bottom-5 left-5 flex items-center gap-3 border border-[#E4E0D5] bg-[#F8F6F0] px-4 py-3 sm:-left-9 sm:bottom-8">
-                <span className="grid h-8 w-8 place-items-center bg-[#EAE4D6] text-[#A98543]"><MapPin size={15} /></span><span><span className="block text-[8px] tracking-[.16em] text-[#5C6B73]">BERLOKASI DI</span><span className="mt-1 block text-[11px] font-semibold">Tebet, Jakarta Selatan</span></span>
+                <span className="grid h-8 w-8 place-items-center bg-[#EAE4D6] text-[#A98543]"><MapPin size={15} /></span><span><span className="block text-[8px] tracking-[.16em] text-[#5C6B73]">BERLOKASI DI</span><span className="mt-1 block text-[11px] font-semibold">Mampang Prapatan, Jakarta Selatan</span></span>
               </div>
             </div>
           </div>
@@ -186,18 +186,18 @@ function App() {
         <section id="lokasi" className="border-y border-[#E4E0D5] bg-[#F0EDE5]">
           <div className="section-wrap grid gap-9 py-20 md:grid-cols-[.85fr_1.15fr] md:py-28">
             <div className="reveal">
-              <p className="eyebrow">Kunjungi kami</p><h2 className="serif mt-4 text-[50px] leading-[.98] sm:text-[60px]">Di jantung <span className="text-[#A98543]">Tebet.</span></h2>
-              <p className="mt-5 max-w-sm text-[12px] leading-6 text-[#5C6B73]">Panama Dental Care berada di kawasan Tebet, Jakarta Selatan. Alamat lengkap dan petunjuk kunjungan dapat dikonfirmasi langsung kepada klinik.</p>
+              <p className="eyebrow">Kunjungi kami</p><h2 className="serif mt-4 text-[50px] leading-[.98] sm:text-[60px]">Di <span className="text-[#A98543]">Mampang Prapatan.</span></h2>
+              <p className="mt-5 max-w-sm text-[12px] leading-6 text-[#5C6B73]">Panama Dental Care berada di Jl. Tegal Parang Sel. No.1, Mampang Prapatan, Jakarta Selatan. Silakan gunakan peta untuk petunjuk arah menuju klinik.</p>
               <div className="mt-8 space-y-5 border-t border-[#DCD7CB] pt-6">
-                <div className="flex gap-4"><MapPin size={16} className="mt-0.5 shrink-0 text-[#A98543]" /><div><p className="text-[11px] font-semibold">Lokasi klinik</p><p className="mt-1 text-[10px] leading-5 text-[#5C6B73]">Tebet, Jakarta Selatan<br /><span className="italic">Alamat jalan lengkap dapat ditambahkan oleh klinik.</span></p></div></div>
+                <div className="flex gap-4"><MapPin size={16} className="mt-0.5 shrink-0 text-[#A98543]" /><div><p className="text-[11px] font-semibold">Lokasi klinik</p><p className="mt-1 text-[10px] leading-5 text-[#5C6B73]">Jl. Tegal Parang Sel. No.1, RT.6/RW.7, Tegal Parang,<br />Kec. Mampang Prpt., Jakarta Selatan,<br />Daerah Khusus Ibukota Jakarta 12790</p></div></div>
                 <div className="flex gap-4"><MessageCircle size={16} className="mt-0.5 shrink-0 text-[#A98543]" /><div><p className="text-[11px] font-semibold">Informasi & reservasi</p><p className="mt-1 text-[10px] leading-5 text-[#5C6B73]">Nomor WhatsApp resmi belum tersedia.<br />Gunakan formulir reservasi untuk menyiapkan pesan.</p></div></div>
-                <a href="https://www.google.com/maps/search/?api=1&query=Tebet%2C+Jakarta+Selatan" target="_blank" rel="noreferrer" data-testid="map-directions-link" className="inline-flex items-center gap-2 border-b border-[#C5A059] pb-1 text-[10px] font-semibold">Lihat kawasan di Google Maps <ArrowUpRight size={13} /></a>
+                <a href="https://www.google.com/maps/place/Panama+Dental+Care+%7C+Praktik+Dokter+Gigi/@-6.2486575,106.8316791,17z" target="_blank" rel="noreferrer" data-testid="map-directions-link" className="inline-flex items-center gap-2 border-b border-[#C5A059] pb-1 text-[10px] font-semibold">Lihat lokasi di Google Maps <ArrowUpRight size={13} /></a>
               </div>
             </div>
             <div className="relative min-h-[340px] overflow-hidden border border-[#DCD7CB] bg-[#E4E0D5] md:min-h-[460px]">
-              <iframe title="Peta kawasan Tebet, Jakarta Selatan" data-testid="location-map" className="absolute inset-0 h-full w-full grayscale-[.65] contrast-[.9]" loading="lazy" src="https://maps.google.com/maps?q=Tebet%2C%20Jakarta%20Selatan&t=&z=13&ie=UTF8&iwloc=&output=embed" />
+              <iframe title="Peta lokasi Panama Dental Care, Mampang Prapatan, Jakarta Selatan" data-testid="location-map" className="absolute inset-0 h-full w-full grayscale-[.65] contrast-[.9]" loading="lazy" src="https://maps.google.com/maps?q=Panama%20Dental%20Care%2C%20Jl.%20Tegal%20Parang%20Sel.%20No.1%2C%20Jakarta%2012790&t=&z=16&ie=UTF8&iwloc=&output=embed" />
               <div className="absolute bottom-4 left-4 max-w-[220px] border border-[#E4E0D5] bg-[#F8F6F0] px-4 py-3">
-                <p className="text-[8px] tracking-[.15em] text-[#A98543]">AREA KLINIK</p><p className="mt-1 text-[11px] font-semibold">Tebet, Jakarta Selatan</p><p className="mt-1 text-[9px] text-[#5C6B73]">Peta area umum · bukan pin alamat klinik</p>
+                <p className="text-[8px] tracking-[.15em] text-[#A98543]">LOKASI KLINIK</p><p className="mt-1 text-[11px] font-semibold">Mampang Prapatan, Jakarta Selatan</p><p className="mt-1 text-[9px] text-[#5C6B73]">Jl. Tegal Parang Sel. No.1 · Jakarta 12790</p>
               </div>
             </div>
           </div>
@@ -215,11 +215,11 @@ function App() {
       <footer className="bg-[#1B262C] text-[#F8F6F0]">
         <div className="section-wrap">
           <div className="grid gap-10 py-12 md:grid-cols-[1.3fr_.7fr_.8fr] md:py-16">
-            <div><a href="#home" className="inline-flex items-center gap-3"><span className="grid h-10 w-10 place-items-center border border-[#C5A059] text-[#C5A059]"><span className="serif text-[26px]">P</span></span><span><span className="block text-[11px] font-bold tracking-[.17em]">PANAMA</span><span className="mt-1 block text-[8px] tracking-[.19em] text-white/55">DENTAL CARE</span></span></a><p className="mt-5 max-w-xs text-[10px] leading-6 text-white/55">Perawatan gigi estetik dan restoratif di Tebet, Jakarta Selatan. Kami hadir untuk membantu Anda merasa lebih nyaman merawat senyum.</p></div>
+            <div><a href="#home" className="inline-flex items-center gap-3"><span className="grid h-10 w-10 place-items-center border border-[#C5A059] text-[#C5A059]"><span className="serif text-[26px]">P</span></span><span><span className="block text-[11px] font-bold tracking-[.17em]">PANAMA</span><span className="mt-1 block text-[8px] tracking-[.19em] text-white/55">DENTAL CARE</span></span></a><p className="mt-5 max-w-xs text-[10px] leading-6 text-white/55">Perawatan gigi estetik dan restoratif di Mampang Prapatan, Jakarta Selatan. Kami hadir untuk membantu Anda merasa lebih nyaman merawat senyum.</p></div>
             <div><p className="eyebrow">Jelajahi</p><div className="mt-5 flex flex-col gap-3 text-[10px] text-white/70"><a href="#layanan" className="hover:text-white">Layanan perawatan</a><a href="#tentang" className="hover:text-white">Tentang klinik</a><a href="#lokasi" className="hover:text-white">Lokasi & jam</a></div></div>
             <div><p className="eyebrow">Buat janji</p><p className="mt-5 text-[10px] leading-5 text-white/60">Mulai dengan memilih layanan dan waktu yang Anda inginkan.</p><button data-testid="footer-booking-cta" onClick={() => openBooking()} className="mt-4 inline-flex items-center gap-2 border border-white/35 px-4 py-3 text-[10px] hover:border-[#C5A059]">Reservasi konsultasi <ArrowRight size={13} /></button></div>
           </div>
-          <div className="flex flex-col gap-2 border-t border-white/15 py-5 text-[9px] text-white/45 sm:flex-row sm:items-center sm:justify-between"><span>© 2026 Panama Dental Care. Powered by HokiDev Healthcare Solutions.</span><span>Tebet · Jakarta Selatan</span></div>
+          <div className="flex flex-col gap-2 border-t border-white/15 py-5 text-[9px] text-white/45 sm:flex-row sm:items-center sm:justify-between"><span>© 2026 Panama Dental Care. Powered by HokiDev Healthcare Solutions.</span><span>Mampang Prapatan · Jakarta Selatan</span></div>
         </div>
       </footer>
 
